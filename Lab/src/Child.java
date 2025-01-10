@@ -2,10 +2,15 @@ public class Child extends Parent{
     //---- Attributes
     private String nickname;
     String university;
-    
+
     //---- Constructors
-    public Child(){ super();}
-    public Child(String securityID, String name, String city,String nickname, String university){
+    public Child(){ 
+    	super();
+    	this.nickname = " ";
+    	this.university = " ";
+    }
+    public Child(String securityID, String name, String city,
+    		String nickname, String university){
         super(securityID,name,city);
         this.nickname = nickname;
         this.university = university;
@@ -26,11 +31,11 @@ public class Child extends Parent{
     }
 
     //---- Methods
+    @Override
     public void showPersonalInfo(){
+    	super.showPersonalInfo();
         System.out.println("Print from Child >> ...");
 		System.out.println("\t Nickname: " + this.nickname);
 		System.out.println("\t university: " + this.university);
     }
-
-
 }
