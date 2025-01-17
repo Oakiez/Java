@@ -1,3 +1,4 @@
+package Lab06;
 
 public class Parent {
 	private String securityId; 
@@ -9,10 +10,10 @@ public class Parent {
 		this.name = "xxx";
 		this.city = "xx";
 	}
-	public Parent(String securityId , String name, String money) {
+	public Parent(String securityId , String name, String city) {
 		this.securityId = securityId;
 		this.name = name;
-		this.city = money;
+		this.city = city;
 	}
 
 	public void showPersonalInfo(){

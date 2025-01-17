@@ -1,3 +1,5 @@
+package Lab06;
+
 public class Actors {
     //---- Attributes
     private double hp;
