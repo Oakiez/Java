@@ -3,7 +3,6 @@ import Lab03_Task1.Calculator;
 
 
 public class Task2 extends Calculator {
-
 	public static void main(String[] args) {
 		//---- Task 2
 		Task2 myCalculator = new Task2();

@@ -1,7 +1,6 @@
 package Lab03_Task1;
 
 public class Task1 {
-
 	public static void main(String[] args) {
 		//---- Task 1
 		Calculator myCalculator = new Calculator("1598","Pink");
