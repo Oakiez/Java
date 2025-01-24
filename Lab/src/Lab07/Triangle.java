@@ -1,3 +1,4 @@
+// นายวงศธร ธน.ยอด 673380425-2 Section 4
 package Lab07;
 
 public class Triangle extends Shape{
