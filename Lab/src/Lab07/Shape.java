@@ -2,14 +2,8 @@
 package Lab07;
 
 public class Shape {
-    private int x_left;
-    private int y_left;
 
     public Shape(){}
-    public Shape(int x, int y){
-        this.x_left = x;
-        this.y_left = y;
-    }
 
     public double getCircumference(){
         return 1;
