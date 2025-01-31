@@ -1,8 +1,6 @@
 // 673380425-2 นายวงศธร ธน.ยอด Section 4
 package Lab08_Task1;
 
-import java.util.ArrayList;
-
 public class Player{
     private int id;
     private String name;
