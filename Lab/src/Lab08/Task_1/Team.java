@@ -1,4 +1,6 @@
-package Task_1;
+// 673380425-2 นายวงศธร ธน.ยอด Section 4
+package Lab08_Task1;
+
 import java.util.ArrayList;
 
 public class Team {
