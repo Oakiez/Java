@@ -1,4 +1,5 @@
-package Task_1;
+// 673380425-2 นายวงศธร ธน.ยอด Section 4
+package Lab08_Task1;
 
 public abstract class RoleBehavior extends Player {
     protected int earn_amt;
